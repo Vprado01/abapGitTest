@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for Z_C_CONNVP01'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'Z_C_CONNVP01'
+  }
+}
+define service ZCONNVP01 provider contracts odata_v4_ui {
+  expose Z_C_CONNVP01 as ConnectionVP01;
+}
